@@ -1,0 +1,23 @@
+using System;
+
+class Program{
+
+    static void Main(){
+        Console.WriteLine("iniciando preparado sanduíche...");
+
+        string[] ingredientes = { "Pão", "Queijo", "Presunto", "Complementos (Opcional)"};
+        Console.WriteLine("Reunindo ingredientes: " + string.Join(", ", ingredientes));
+
+        Console.WriteLine("Pegando o prato e a faca");
+        Console.WriteLine("corta o pão");
+        Console.WriteLine("coloca a maionese no pão");
+        Console.WriteLine("adiciona o queijo e o presunto");
+        Console.WriteLine("fecha o pão");
+        Console.WriteLine("senta e come ");
+
+       
+        Console.WriteLine("Fim do processo");
+
+
+    }
+}
